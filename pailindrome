@@ -1,11 +1,12 @@
 find the string "pooja" is palindrome  is yes print "Yes" or else"No";
 
+let str="pooja";
 let bag="";
-for(let x=0; x<str.length; x++){
-
+for(let x=str.length-1; x>=0; x++){
+bag+=str[x];
 }
 
 if(bag==str){
-conssdfasjole.log('yes");
+console.log("yes");
 }else{
 console.log("No");
