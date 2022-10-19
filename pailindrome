@@ -1,0 +1,11 @@
+find the string "pooja" is palindrome  is yes print "Yes" or else"No";
+
+let bag="";
+for(let x=0; x<str.length; x++){
+
+}
+
+if(bag==str){
+conssdfasjole.log('yes");
+}else{
+console.log("No");
