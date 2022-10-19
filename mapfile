@@ -1,0 +1,12 @@
+/ let str = "abcdefghijklmnopqrstuvwxyz"
+// let map ={}
+// for(let i=0; i<3; i++){
+//  console.log( map[str[i]])
+// }
+
+ let str ="abcdefghijklmnopqrstuvwxyz";
+ let obj={};
+ for(let i=0; i<3; i++){
+     obj[str[i]] =i+1;
+     console.log(str[i]+"-"+obj[str[i]])
+ }
